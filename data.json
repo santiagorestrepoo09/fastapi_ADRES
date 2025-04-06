@@ -1,0 +1,264 @@
+{
+    "adquisiciones": [
+        {
+            "presupuesto": "3.000.000.000",
+            "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+            "tipo_bien_servicio": "Medicamentos",
+            "cantidad": 300,
+            "valor_unitario": 4801.0,
+            "valor_total": 1750000.0,
+            "fecha_adquisicion": "2024-09-30",
+            "proveedor": "Formación Empresarial Ltda.",
+            "estado": "activo",
+            "documentacion": "contrato de adquisicion",
+            "numero_orden": "2023-07-20-001",
+            "factura": "2023-07-20-001"
+        },
+        {
+            "presupuesto": "2000000000",
+            "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+            "tipo_bien_servicio": "Medicamentos",
+            "cantidad": 1000,
+            "valor_unitario": 5900.0,
+            "valor_total": 5800000.0,
+            "fecha_adquisicion": "2024-09-30",
+            "proveedor": "Formación Empresarial Ltda.",
+            "estado": "activo",
+            "documentacion": "contrato de adquisicion",
+            "numero_orden": "2024-09-30-001",
+            "factura": "2024-09-30-001"
+        },
+        {
+            "presupuesto": "6.000.000.000",
+            "unidad": "Dirección Tecnologías en Salud",
+            "tipo_bien_servicio": "Equipo Biomedico",
+            "cantidad": 5000,
+            "valor_unitario": 120000.0,
+            "valor_total": 600000000.0,
+            "fecha_adquisicion": "2025-04-04",
+            "proveedor": "Berigenr",
+            "estado": "activo",
+            "documentacion": "Se realiza la asignacion de datos ",
+            "numero_orden": "2025-04-04 004",
+            "factura": "2025-04-04 004"
+        },
+        {
+            "presupuesto": "2000000000",
+            "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+            "tipo_bien_servicio": "Medicamentos",
+            "cantidad": 1000,
+            "valor_unitario": 5800.0,
+            "valor_total": 5800000.0,
+            "fecha_adquisicion": "2024-09-30",
+            "proveedor": "Formación Empresarial Ltda.",
+            "estado": "activo",
+            "documentacion": "contrato de adquisicion",
+            "numero_orden": "2024-09-30-001",
+            "factura": "2024-09-30-001"
+        },
+        {
+            "presupuesto": "4000000000",
+            "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+            "tipo_bien_servicio": "Medicamentos",
+            "cantidad": 1200000,
+            "valor_unitario": 58500.0,
+            "valor_total": 58000500.0,
+            "fecha_adquisicion": "2024-09-30",
+            "proveedor": "Formación Empresarial Ltda.",
+            "estado": "activo",
+            "documentacion": "contrato de adquisicion",
+            "numero_orden": "2024-09-30-001",
+            "factura": "2024-09-30-001"
+        },
+        {
+            "presupuesto": "855555555",
+            "unidad": "Tecnologías en Salud",
+            "tipo_bien_servicio": "Medicamentos",
+            "cantidad": 800000,
+            "valor_unitario": 30000.0,
+            "valor_total": 24000000000.0,
+            "fecha_adquisicion": "2025-04-06",
+            "proveedor": "MtP S.A.S",
+            "estado": "activo",
+            "documentacion": "Se realiza la adjudicación del contrato con el proveedor MTP S.A.S",
+            "numero_orden": "2024-04-06 - 007",
+            "factura": "2024-04-06 - 007"
+        },
+        {
+            "presupuesto": "15200000",
+            "unidad": "Direccion de Medicina",
+            "tipo_bien_servicio": "Repuestos Equipos medicos ",
+            "cantidad": 5,
+            "valor_unitario": 1500000.0,
+            "valor_total": 7500000.0,
+            "fecha_adquisicion": "2025-04-10",
+            "proveedor": "Equimedicyfisioterapia",
+            "estado": "activo",
+            "documentacion": "Se aprueba el la contratación para adquirir los repuestos de los equipos médicos ORDEN # F785255",
+            "numero_orden": "205-04-10- 008",
+            "factura": "F785255"
+        }
+    ],
+    "eventos": [
+        {
+            "factura": "2024-09-30-001",
+            "fecha_hora": "2025-04-06T08:10:28.915611",
+            "tipo_evento": "creación",
+            "descripcion": "Se creó una nueva adquisición.",
+            "datos_afectados": {
+                "presupuesto": "4000000000",
+                "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+                "tipo_bien_servicio": "Medicamentos",
+                "cantidad": 1200000,
+                "valor_unitario": 58500.0,
+                "valor_total": 58000500.0,
+                "fecha_adquisicion": "2024-09-30",
+                "proveedor": "Formación Empresarial Ltda.",
+                "estado": "activo",
+                "documentacion": "contrato de adquisicion",
+                "numero_orden": "2024-09-30-001",
+                "factura": "2024-09-30-001"
+            }
+        },
+        {
+            "factura": "2024-09-30-001",
+            "fecha_hora": "2025-04-06T08:11:21.405803",
+            "tipo_evento": "eliminación",
+            "descripcion": "Se eliminó la adquisición en el índice 5.",
+            "datos_afectados": {
+                "presupuesto": "4000000000",
+                "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+                "tipo_bien_servicio": "Medicamentos",
+                "cantidad": 1200000,
+                "valor_unitario": 58500.0,
+                "valor_total": 58000500.0,
+                "fecha_adquisicion": "2024-09-30",
+                "proveedor": "Formación Empresarial Ltda.",
+                "estado": "activo",
+                "documentacion": "contrato de adquisicion",
+                "numero_orden": "2024-09-30-001",
+                "factura": "2024-09-30-001"
+            }
+        },
+        {
+            "factura": "2023-07-20-001",
+            "fecha_hora": "2025-04-06T08:14:49.776515",
+            "tipo_evento": "eliminación",
+            "descripcion": "Se actualizo la adquisición en el índice 0.",
+            "datos_afectados": {
+                "presupuesto": "3.000.000.000",
+                "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+                "tipo_bien_servicio": "Medicamentos",
+                "cantidad": 400,
+                "valor_unitario": 35008.0,
+                "valor_total": 1750000.0,
+                "fecha_adquisicion": "2024-09-30",
+                "proveedor": "Formación Empresarial Ltda.",
+                "estado": "activo",
+                "documentacion": "contrato de adquisicion",
+                "numero_orden": "2023-07-20-001",
+                "factura": "2023-07-20-001"
+            }
+        },
+        {
+            "factura": "2024-09-30-001",
+            "fecha_hora": "2025-04-06T08:16:31.449097",
+            "tipo_evento": "creación",
+            "descripcion": "Se creó una nueva adquisición.",
+            "datos_afectados": {
+                "presupuesto": "4000000000",
+                "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+                "tipo_bien_servicio": "Medicamentos",
+                "cantidad": 1200000,
+                "valor_unitario": 58500.0,
+                "valor_total": 58000500.0,
+                "fecha_adquisicion": "2024-09-30",
+                "proveedor": "Formación Empresarial Ltda.",
+                "estado": "activo",
+                "documentacion": "contrato de adquisicion",
+                "numero_orden": "2024-09-30-001",
+                "factura": "2024-09-30-001"
+            }
+        },
+        {
+            "factura": "2024-09-30-001",
+            "fecha_hora": "2025-04-06T08:16:43.146528",
+            "tipo_evento": "creación",
+            "descripcion": "Se creó una nueva adquisición.",
+            "datos_afectados": {
+                "presupuesto": "9000000000",
+                "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+                "tipo_bien_servicio": "Medicamentos",
+                "cantidad": 1200000,
+                "valor_unitario": 58500.0,
+                "valor_total": 58000500.0,
+                "fecha_adquisicion": "2024-09-30",
+                "proveedor": "Formación Empresarial Ltda.",
+                "estado": "inactivo",
+                "documentacion": "contrato de adquisicion",
+                "numero_orden": "2024-09-30-001",
+                "factura": "2024-09-30-001"
+            }
+        },
+        {
+            "factura": "2024-09-30-001",
+            "fecha_hora": "2025-04-06T08:17:16.310781",
+            "tipo_evento": "eliminación",
+            "descripcion": "Se eliminó la adquisición en el índice 5.",
+            "datos_afectados": {
+                "presupuesto": "9000000000",
+                "unidad": "Dirección de Medicamentos y Tecnologías en Salud",
+                "tipo_bien_servicio": "Medicamentos",
+                "cantidad": 1200000,
+                "valor_unitario": 58500.0,
+                "valor_total": 58000500.0,
+                "fecha_adquisicion": "2024-09-30",
+                "proveedor": "Formación Empresarial Ltda.",
+                "estado": "inactivo",
+                "documentacion": "contrato de adquisicion",
+                "numero_orden": "2024-09-30-001",
+                "factura": "2024-09-30-001"
+            }
+        },
+        {
+            "factura": "2024-04-06 - 007",
+            "fecha_hora": "2025-04-06T08:32:26.642965",
+            "tipo_evento": "creación",
+            "descripcion": "Se creó una nueva adquisición.",
+            "datos_afectados": {
+                "presupuesto": "855555555",
+                "unidad": "Tecnologías en Salud",
+                "tipo_bien_servicio": "Medicamentos",
+                "cantidad": 800000,
+                "valor_unitario": 30000.0,
+                "valor_total": 24000000000.0,
+                "fecha_adquisicion": "2025-04-06",
+                "proveedor": "MtP S.A.S",
+                "estado": "activo",
+                "documentacion": "Se realiza la adjudicación del contrato con el proveedor MTP S.A.S",
+                "numero_orden": "2024-04-06 - 007",
+                "factura": "2024-04-06 - 007"
+            }
+        },
+        {
+            "factura": "F785255",
+            "fecha_hora": "2025-04-06T08:38:20.785926",
+            "tipo_evento": "creación",
+            "descripcion": "Se creó una nueva adquisición.",
+            "datos_afectados": {
+                "presupuesto": "15200000",
+                "unidad": "Direccion de Medicina",
+                "tipo_bien_servicio": "Repuestos Equipos medicos ",
+                "cantidad": 5,
+                "valor_unitario": 1500000.0,
+                "valor_total": 7500000.0,
+                "fecha_adquisicion": "2025-04-10",
+                "proveedor": "Equimedicyfisioterapia",
+                "estado": "activo",
+                "documentacion": "Se aprueba el la contratación para adquirir los repuestos de los equipos médicos ORDEN # F785255",
+                "numero_orden": "205-04-10- 008",
+                "factura": "F785255"
+            }
+        }
+    ]
+}
