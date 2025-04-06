@@ -120,12 +120,15 @@ Body:
 2. Obtener todos los eventos
 GET /eventos
 
-c:\Users\David Santiago\OneDrive\Escritorio\DEVELOP\PYTHON\API ADRES\
-│
-├── [main.py](http://_vscodecontentref_/0)               # Código principal de la API
-├── [data.json](http://_vscodecontentref_/1)             # Archivo de datos (adquisiciones y eventos)
-├── requirements.txt      # Dependencias del proyecto
-└── README.md             # Documentación del proyecto
+```bash
+  c:\Users\David Santiago\OneDrive\Escritorio\DEVELOP\PYTHON\API ADRES\
+  │
+  ├── [main.py](http://_vscodecontentref_/0)               # Código principal de la API
+  ├── [data.json](http://_vscodecontentref_/1)             # Archivo de datos (adquisiciones y eventos)
+  ├── requirements.txt      # Dependencias del proyecto
+  └── README.md             # Documentación del proyecto
+```
+
 
 Dependencias principales
 FastAPI: Framework para construir APIs rápidas y modernas.
