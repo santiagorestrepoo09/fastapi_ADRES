@@ -149,18 +149,23 @@ def actualizar_adquisicion(indice: int, item: Adquisicion):
     if indice < 0 or indice >= len(contenido["adquisiciones"]):
         raise HTTPException(status_code=404, detail="Índice fuera de rango.")
 
-    actualziaco = contenido["adquisiciones"].pop(indice)
+    # Obtener los datos actuales antes de la actualización
+    datos_anteriores = contenido["adquisiciones"][indice]
+
+    # Actualizar los datos en el índice especificado
     contenido["adquisiciones"][indice] = item.dict()
-    factura = actualziaco.get("factura", "Factura no disponible")
+
+    # Guardar los cambios en el archivo
     with open(DATA_FILE, "w", encoding="utf-8") as file:
         json.dump(contenido, file, indent=4, ensure_ascii=False)
 
+    # Registrar el evento de actualización
     agregar_evento(
-            factura,
-            "Actualización",
-            f"Se actualizo la adquisición en el índice {indice}.",
-            actualziaco
-        )
+        item.factura,
+        "Actualización",
+        f"Se actualizó la adquisición en el índice {indice}.",
+        {"antes": datos_anteriores, "después": item.dict()}
+    )
 
     return {
         "mensaje": "Adquisición actualizada correctamente.",

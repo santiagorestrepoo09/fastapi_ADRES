@@ -93,10 +93,24 @@
             "valor_total": 7500000.0,
             "fecha_adquisicion": "2025-04-10",
             "proveedor": "Equimedicyfisioterapia",
-            "estado": "activo",
+            "estado": "inactivo",
             "documentacion": "Se aprueba el la contratación para adquirir los repuestos de los equipos médicos ORDEN # F785255",
             "numero_orden": "205-04-10- 008",
             "factura": "F785255"
+        },
+        {
+            "presupuesto": "8966666",
+            "unidad": "Despartamento de medicamentos",
+            "tipo_bien_servicio": "Medicamentos ",
+            "cantidad": 90,
+            "valor_unitario": 352000.0,
+            "valor_total": 28000000.0,
+            "fecha_adquisicion": "2025-04-06",
+            "proveedor": "HP medicina",
+            "estado": "activo",
+            "documentacion": "Se agrega el numero de orden 2025-04-06 0008 para la compra de medicamentos ",
+            "numero_orden": "2025-04-06 0008",
+            "factura": "2025-04-06 0008"
         }
     ],
     "eventos": [
@@ -258,6 +272,71 @@
                 "documentacion": "Se aprueba el la contratación para adquirir los repuestos de los equipos médicos ORDEN # F785255",
                 "numero_orden": "205-04-10- 008",
                 "factura": "F785255"
+            }
+        },
+        {
+            "factura": "actualización",
+            "fecha_hora": "2025-04-06T09:53:32.939386",
+            "tipo_evento": "Se actualizó el estado de la adquisición en el índice 6.",
+            "descripcion": {
+                "estado_nuevo": "inactivo"
+            },
+            "datos_afectados": null
+        },
+        {
+            "factura": "2025-04-06 0008",
+            "fecha_hora": "2025-04-06T10:09:02.009581",
+            "tipo_evento": "creación",
+            "descripcion": "Se creó una nueva adquisición.",
+            "datos_afectados": {
+                "presupuesto": "8966666",
+                "unidad": "Despartamento de medicamentos",
+                "tipo_bien_servicio": "Medicamentos ",
+                "cantidad": 80,
+                "valor_unitario": 350000.0,
+                "valor_total": 28000000.0,
+                "fecha_adquisicion": "2025-04-06",
+                "proveedor": "HP medicina",
+                "estado": "activo",
+                "documentacion": "Se agrega el numero de orden 2025-04-06 0008 para la compra de medicamentos ",
+                "numero_orden": "2025-04-06 0008",
+                "factura": "2025-04-06 0008"
+            }
+        },
+        {
+            "factura": "2025-04-06 0008",
+            "fecha_hora": "2025-04-06T10:12:21.595984",
+            "tipo_evento": "Actualización",
+            "descripcion": "Se actualizó la adquisición en el índice 7.",
+            "datos_afectados": {
+                "antes": {
+                    "presupuesto": "8966666",
+                    "unidad": "Despartamento de medicamentos",
+                    "tipo_bien_servicio": "Medicamentos ",
+                    "cantidad": 80,
+                    "valor_unitario": 350000.0,
+                    "valor_total": 28000000.0,
+                    "fecha_adquisicion": "2025-04-06",
+                    "proveedor": "HP medicina",
+                    "estado": "activo",
+                    "documentacion": "Se agrega el numero de orden 2025-04-06 0008 para la compra de medicamentos ",
+                    "numero_orden": "2025-04-06 0008",
+                    "factura": "2025-04-06 0008"
+                },
+                "después": {
+                    "presupuesto": "8966666",
+                    "unidad": "Despartamento de medicamentos",
+                    "tipo_bien_servicio": "Medicamentos ",
+                    "cantidad": 90,
+                    "valor_unitario": 352000.0,
+                    "valor_total": 28000000.0,
+                    "fecha_adquisicion": "2025-04-06",
+                    "proveedor": "HP medicina",
+                    "estado": "activo",
+                    "documentacion": "Se agrega el numero de orden 2025-04-06 0008 para la compra de medicamentos ",
+                    "numero_orden": "2025-04-06 0008",
+                    "factura": "2025-04-06 0008"
+                }
             }
         }
     ]
